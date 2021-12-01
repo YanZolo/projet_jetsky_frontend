@@ -1,6 +1,6 @@
 Sky Jet est une interface web qui permet de réserver un vol en Jet privée.
-we have three destination, Paris FRANCE, Roma ITALY, New York USA.
- For autocomplete matching please put city name like "paris" or "rome" departure and arrival in fields, and need to run server.js file in back-end  : https://github.com/sofianeSghiouar/projet_jetsky_backend
+we have three destinations, Paris FRANCE, Roma ITALY and New York USA.
+ For autocomplete matching please put city name like "paris" or "rome" in departure and arrival fields, and need to run server.js file in back-end  : https://github.com/sofianeSghiouar/projet_jetsky_backend
 
 Project in progress ... Thank you
 
