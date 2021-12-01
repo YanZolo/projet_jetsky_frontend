@@ -27,7 +27,7 @@ body {
 
 .header-avion-models {
     width: 100%;
-    height: 32rem;
+    height: 100vh;
     background-image: url('../images/learjet-1636124443335-5209.jpg');
     background-size: cover;
     background-position: center;
