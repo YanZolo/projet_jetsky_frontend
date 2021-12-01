@@ -1,8 +1,13 @@
 Sky Jet est une interface web qui permet de réserver un vol en Jet privée.
-we have three destinations, Paris FRANCE, Roma ITALY and New York USA.
- For autocomplete matching please put city name like "paris" or "rome" in departure and arrival fields, and need to run server.js file in back-end  : https://github.com/sofianeSghiouar/projet_jetsky_backend
 
-Project in progress ... Thank you
+Sky Jet est un projet de fin d'étude nous étions une équipe de 5, mon rôle était de faire la partie backend j'ai utilisé node express pour le serveur et mongoDB avec mongoose pour la partie base de données. J'ai également participé à la partie client en créant quelques interfaces avec CSS et React : onglet "avions" (composants cardPlane, et Data.Jets), onglet "réservez votre vol" (composants RecapVol et Map) et amelioration du composant "search" (commentaires + architecture + sémantique).
+
+we have three destinations, Paris FRANCE, Roma ITALY and New York USA.
+For autocomplete matching please put city name like "paris" or "rome" in departure and arrival fields, and need to run server.js file in back-end  : https://github.com/sofianeSghiouar/projet_jetsky_backend
+
+Project in progress ... Thank you ! 
+
+Sofiane Sghiouar
 
 
 # Getting Started with Create React App
