@@ -1,0 +1,86 @@
+
+/* Global */
+.grillCSS {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column: 1 / span 12 ;
+}
+
+.small-title {
+    color: black;
+}
+
+.projet-link {
+    color: black;
+}
+
+/* Projet Left */
+.projet-left .box {
+    grid-column: 3 / span 5;
+    grid-row: 1 / sapan 3;
+    width: 100%;
+}
+
+.projet-info {
+    background: rgb(233, 227, 227);
+    padding: 11px 20px 0px 18px;
+}
+
+.projet-left .projet-info {
+    grid-column: 7 / span 3;
+    grid-row: 2 / span 1;
+    border-radius: 25px;
+
+}
+
+/* Projet right */
+
+.projet-right .box {
+    grid-column: 6 / span 5;
+    grid-row: 1 / span 3;
+    width: 100%;
+}
+
+.projet-right .projet-info {
+    grid-column: 4 / span 3;
+    grid-row: 2 / span 1;
+    border-radius: 25px;
+}
+
+.box {
+    position: relative;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.destina-image {
+    /* visibility: hidden; */
+    width: 50vw;
+    border-radius: 25px;
+    height: 50vh;
+}
+
+.AKairports {
+    color: black;
+}
+
+p.projet-link {
+    margin-bottom: 0;
+}
+
+.overlay {
+    display: block;
+    position: absolute;
+    /* background: #48d5df; */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* canvas { width: 100%; height: 100% } */
+
+/* .section {
+    visibility: hidden;
+} */

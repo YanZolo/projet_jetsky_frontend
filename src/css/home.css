@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Fredoka+One&family=Poppins:wght@300&family=Saira&display=swap');
+/* font-family: 'Bungee Hairline', cursive;
+font-family: 'Fredoka One', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Saira', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+body{
+  color: white;
+}
+
+
+/* le premier block */
+
+.img-plane{
+  width: 100vw;
+  height: 100vh;
+}
+
+/* fin premier block */
+
+
+/* La 2em partie carousel */
+/* home est dans carousel et reservation de vol  */
+.home-title{
+    text-align: center;
+    margin: 55px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,sans-serif;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 15px;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.d-block {
+
+  width: 50%;
+  margin-left: 25%;
+  background-size: cover;
+  filter: drop-shadow(0 0 0.75rem rgb(46, 45, 45));
+  border-radius: 20px;
+
+}
+
+.paris{
+
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+}
+.rome{
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+/* fin de la partie carousel */
+
+
+
+/* 3 em block reservation de vol */
+/* image side */
+.booking-flight{
+  filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
+  width: 25%;
+  margin-left: 4rem;
+  margin-bottom: 4rem;
+  border-radius: 20px;
+}
+
+
+/* le button de reservation */
+.btn-booking {
+  align-items: center;
+  appearance: none;
+  background-color: #295070;
+  border-radius: 7px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+  box-sizing: border-box;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+  display: inline-flex;
+  fill: currentcolor;
+  font-family: 'Saira', sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  width: 350px;
+  height: 48pbx;
+  justify-content: center;
+  letter-spacing: .25px;
+  overflow: visible;
+  padding: 12px 24px;
+  margin-left: 38%;
+  text-shadow: -2px 0 black, 0 1px black, 2px 0 black, 0 -1px black;
+
+
+}
+
+.btn-booking:hover {
+  background: #1a496d;
+  color: white;
+  
+}
+
+
+
+.text-descri h2  {
+  color: black;
+  line-height: 35px;
+  
+}
+
+.text-descri p  {
+  color: black;
+}
+
+.all-block{
+  display: flex;
+  font-family: 'Work Sans', sans-serif;
+
+}
+
+.text-descri{
+  text-align: center;
+  padding: 4rem 12rem;;
+}
+
+
+/* fin 3em block re */
+
+
+/* 4 em block Nos avions  */
+
+.flight-one{
+  width: 45%;
+  margin-top: -17%;
+  border-radius: 17px;
+}
+
+.flight-two{
+  width: 45%;
+  margin-left:45%;
+  position: relative;
+  bottom: 23vh;
+  border-radius: 17px;
+}
+
+.img-cont{
+  margin-left: 6rem;
+  font-size: 1.1rem;
+  position: relative;
+    top: 35px;
+}
+
+.first-block{
+  margin-inline-start: 52%;
+  margin-top: 10rem;
+  width: 28rem;
+}
+
+
+.text-second{
+  float: left;
+}
+
+.text-snd{
+    margin-inline: 49px;
+    position: relative;
+    top: 85px;
+    width: 27%;
+}
+
+/* footer */
+
+.footer-dark {
+  padding:50px 0;
+  color:#f0f9ff;
+  background-color:#282d32;
+}
+
+.footer-dark h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-dark ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-dark ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity:0.8;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom:36px;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item.text {
+    margin-bottom:0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity:0.6;
+  margin-bottom:0;
+}
+
+.footer-dark .item.social {
+  text-align:center;
+}
+
+@media (max-width:991px) {
+  .footer-dark .item.social {
+    text-align:center;
+    margin-top:20px;
+  }
+}
+
+.footer-dark .item.social > a {
+  font-size:20px;
+  width:36px;
+  height:36px;
+  line-height:36px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+  margin:0 8px;
+  color:#fff;
+  opacity:0.75;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity:0.9;
+}
+
+.copyright {
+    padding-top: 40px;
+    opacity: 1.3;
+    margin-left: 10%;
+}
+
+.logo{
+   width: 18%;
+   height:7rem;
+   border-radius: 17px;
+ }
+

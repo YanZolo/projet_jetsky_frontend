@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Fredoka+One&family=Poppins:wght@300&family=Saira&display=swap');
+/* font-family: 'Bungee Hairline', cursive;
+font-family: 'Fredoka One', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Saira', sans-serif; */
+
+/* colors ==> #CBAE38(gold) */
+
+
+.container-recap {
+    display: flex;
+    width: 90vw;
+    height: auto;
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.442), rgb(98, 166, 255));
+    margin: 100px auto;
+    box-sizing: border-box;
+    padding: 10px;
+    font-family: 'Saira', sans-serif;
+    text-align: justify;
+
+}
+
+.blockLeftRecap {
+    position: relative;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.224);
+    padding: 50px;
+}
+
+.blockLeftRecap input {
+    position: absolute;
+    bottom: 10rem;
+    display: block;
+    margin: 10% auto 0px;
+    outline: none;
+    padding: 5px;
+    border-radius: 7px;
+    width: 300px;
+    transition: .7s;
+}
+
+
+.blockRightMap {
+    padding: 50px;
+    transition: .7s;
+}
+
+.BtnReturnResearch {
+    position: absolute;
+    top: 90px;
+    right: 40px;
+    border-radius: 5px;
+    border-top-left-radius: 90%;
+    border-bottom-left-radius: 40%;
+    border: none;
+    background-color: #295070;
+    padding: 10px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    z-index: 222;
+    outline: none;
+    transform: scale(0.7);
+    border: 2px solid rgba(255, 255, 255, 0.51);
+    box-shadow: inset .5px .5px 3px 1px #000000a8, -.5px -.5px 3px 1px #000000ad;
+    transition: 0.8 ease-in-out;
+
+}
+
+.BtnReturnResearch:hover {
+    background-color: rgb(59, 119, 193);
+    transform: scale(0.68);
+    color: rgb(255, 255, 255);
+}
+
+.btn-payer {
+    position: absolute;
+    bottom: 5rem;
+    display: block;
+    margin: 10px auto;
+    width: 300px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    outline: hidden;
+    background-color: rgb(0, 94, 255);
+    color: white;
+    transition: .2s ease-in-out;
+    font-weight: 500;
+    letter-spacing: 2px;
+    box-shadow: inset .5px .5px 3px 1px #000000a8, -.2px -.2px 3px .5px #000000ad;
+    transition: .7s;
+}
+
+@media (max-width:1245px) {
+    .container-recap {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .blockLeftRecap {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+padding-bottom: 150px;
+    }
+
+    .blockLeftRecap input {
+        position: absolute;
+        bottom: 4rem;
+    }
+
+    .btn-payer {
+        position: absolute;
+        bottom: 0;
+    }
+
+    .blockRightMap {
+        transform: scale(0.7);
+        padding: 0;
+        margin-right: 100%;
+    }
+}
+
+.btn-payer:hover {
+
+    background-color: rgba(0, 94, 255, 0.7);
+    /* box-shadow: inset .5px .5px 3px 1px #cbae38a8, -.5px -.5px 3px 1px #cbae38ad; */
+    transform: scale(0.99);
+
+}

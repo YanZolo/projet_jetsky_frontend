@@ -1,0 +1,148 @@
+/* $white: rgba(255,255,255,0.3); */
+element {
+  --white: rgba(255,255,255,0.3);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color:#04163B;
+}
+
+.line-separation-blocks-search {
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(45deg, rgb(28, 28, 28), rgba(1, 153, 223, 0.849),rgb(28, 28, 28) );
+}
+
+.vid {
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  width: 100vw;
+  height: 100vh;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+  transition: 1s opacity;
+}
+
+form {
+  top: -20px;
+  left: 4rem;
+  position: relative;
+  margin-left: 10rem;
+  background: rgba(255,255,255,0.3);
+  height: auto;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.form-control, .form-check-input {
+  background: rgba(255,255,255,0.2);
+  border: none;
+  backdrop-filter: blur(5px);
+  box-shadow: 4px 4px 60px rgba(0,0,0,0.10);
+  color: rgb(71, 69, 69);
+  font-weight: 500;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+.form-check {
+  margin-right: 80%;
+}
+.form-check label{
+  width: 120px;
+}
+.aller-retour{
+  text-transform:capitalize;
+}
+
+.form-control::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.p-search {
+  font-weight: 500;
+  color: #fff;
+  opacity: 0.7;
+  font-size: 1.0rem;
+  margin-top: 0;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  }
+
+.btn {
+  font-size: 1rem;
+  background: rgba(255,255,255,0.2);
+  transition-duration: 0.1s;
+}
+.btn:hover {
+  background-color: rgb(128, 128, 123);
+}
+
+.fusterA {
+  position: relative;
+}
+
+.fusterA i {
+  position: absolute;
+  right: 15px;
+  top: 12px;
+  color: #04163B;
+}
+
+.fusterB {
+  position: relative;
+}
+
+.fusterB i {
+  position: absolute;
+  right: 15px;
+  top: 12px;
+  color: #04163B;
+}
+
+.passenger {
+  position: relative;
+}
+
+.passenger i {
+  position: absolute;
+  right: 15px;
+  top: 16px;
+  color: #04163B;
+}
+#quantities {
+  position: absolute;
+  top: 5px;
+  right: 35px;
+  background-color: #9E9E9F ;
+  outline: none;
+}
+/* input[type="text"], [type="time"], [type="date"], [type="checkbox"], [type="submit"], [type="number"] */
+
+/* @media screen() {
+  
+} */
+#searchResultsFrom {
+  color: white;
+  cursor: pointer;
+}
+#searchResultsTo {
+  color: white;
+  cursor: pointer;
+}
+
+/* .input-aller-retour {
+  position: relative;
+}
+.aller-retour {
+  position: absolute;
+  top: 0;
+  left: 0;
+} */

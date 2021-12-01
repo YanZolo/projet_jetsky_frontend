@@ -1,0 +1,88 @@
+
+.avion-effet-hublot {
+    margin-bottom: -112px;
+    height: 100px;
+    background-color: #295070;
+}
+.avion-effet-hublot-2 {
+    margin-top: -115px;
+    height: 200px;
+    background-color: #295070;
+}
+.container-devis {
+    position: relative;
+    width: 100vw;
+
+}
+
+.clouds-devis {
+    position: absolute;
+    
+    background-image: url('../images/backgrounds/clouds.png');
+    background-size: cover;    
+    height: 100%;
+    width: 100%;
+    z-index: -115;
+    animation: animeClouds 180s linear infinite ;
+}
+ @keyframes animeClouds {
+    0% {
+        background-position: -5440px;
+    }
+    100% {
+       background-position: 0px;
+    }
+ }
+.clouds-devis-2 {
+    position: absolute;
+    top: 0;
+    background-image: url('../images/backgrounds/clouds.png');
+    background-size: cover;    
+    height: 100%;
+    width: 100%;
+    z-index: -111;
+    animation: animeClouds2 220s linear infinite;
+}
+ @keyframes animeClouds2 {
+     0% {
+         background-position: 0px;
+     }
+     100% {
+        background-position: -5440px;
+     }
+ }
+
+.container-devis-message {
+    text-align: center;
+    width: 600px;
+    height: auto;
+    margin: 7rem auto;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.474);
+    z-index: 999;
+    border: 10px solid snow;
+    border-radius: 10%;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+.container-devis-message h1 {
+    margin-bottom: 2rem;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+.btn-devis-envoyé {
+    margin-bottom: 2rem;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #295070;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+.btn-devis-envoyé:hover {
+    background-color: #376488;
+
+}
