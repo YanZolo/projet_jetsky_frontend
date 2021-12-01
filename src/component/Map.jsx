@@ -12,10 +12,11 @@ const Map = (props) => {
 
     const AnyReactComponent = () => (
         <div style={{
+            position:"relative",
             color: '#E74C3C',
             fontSize: '1.1rem'
         }}>
-            <i class="fas fa-map-marker"></i>
+            <i class="fas fa-map-marker" style={{position:"absolute", bottom:'0', left:'0'}}></i>
         </div>
     );
 
