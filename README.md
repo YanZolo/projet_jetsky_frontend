@@ -1,3 +1,8 @@
+Sky Jet est une interface web qui permet de réserver un vol en Jet privée.
+
+Project in progress ...
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
