@@ -1,5 +1,7 @@
 Sky Jet est une interface web qui permet de réserver un vol en Jet privée.
 
+le back-end: https://github.com/sofianeSghiouar/projet_jetsky_backend
+
 Project in progress ...
 
 
